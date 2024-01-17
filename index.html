@@ -5,6 +5,8 @@
   
   <meta http-equiv="refresh" content= "7; url = https://nabauxou.net/4/6919170">
   <meta name="monetag" content="14a61a1ceb3d5be0cfaab92ee910b0a0">
+ <meta name="viewport" content="width=device-width">
+ 
   <title>CodePen - Pulsing Play Button</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
@@ -166,7 +168,7 @@
 <script type="text/javascript" id="dcoder_script">$('#play-video').on('click', function(e){
   e.preventDefault();
   $('#video-overlay').addClass('open');
-  $("#video-overlay").append('<iframe width="100%" height="900" src="https://fbgamesph.netlify.app" frameborder="0" allowfullscreen></iframe>');
+  $("#video-overlay").append('<iframe width="100%" height="100%" src="https://fbgamesph.netlify.app" frameborder="0" allowfullscreen></iframe>');
 });
 
 $('.video-overlay, .video-overlay-close').on('click', function(e){
